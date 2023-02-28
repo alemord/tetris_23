@@ -1,0 +1,89 @@
+.footer {
+  position: absolute;
+  bottom: 150px;
+  left: 770px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+}
+
+h2{
+  position: absolute;
+  bottom: 400px;
+  right: 5px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 14px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+}
+
+.rules {
+  position: absolute;
+  bottom: 500px;
+  left: 260px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 14px;
+  
+}
+
+body {
+  background-color: #000000;
+
+  background-image: url('wallpaperflare.com_wallpaper.jpg');
+  background-position: 300px 80px;
+  background-size: cover;  
+}
+
+.score {
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 18px;
+}
+
+.level {
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
+  font-size: 18px;
+}
+
+#start-button {
+  background-color: #222;
+  font-family: 'Press Start 2P', cursive;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  margin-left: 900px;
+  margin-bottom: 50px;
+
+}
+
+#start-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
