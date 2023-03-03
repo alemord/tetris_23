@@ -129,7 +129,7 @@ h3 {
 body {
   background-color: #000000;
 
-  background-image: url('wallpaperflare.com_wallpaper.jpg');
+  background-image: url('media/wallpaperflare.com_wallpaper.jpg');
   background-position: 300px 80px;
   background-size: cover;  
 }
@@ -314,6 +314,4 @@ audio::-webkit-media-controls-volume-slider-thumb {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
-
-
 
