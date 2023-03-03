@@ -5,3 +5,12 @@
 ### The shapes include L-shape, Z-shape, T-shape, O-shape, and I-shape.
 ### If a shape is blocked and can't move down, the game freezes the shape and adds its squares to the taken class, while prompting a new shape to be created at the top of the grid.
 
+
+
+#### Sources:
+##### * https://michael-karen.medium.com/learning-modern-javascript-with-tetris-92d532bcd057
+##### * https://levelup.gitconnected.com/build-a-tetris-game-with-html-canvas-css-and-javascript-on-autocode-132c8346e60c
+##### * https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game/
+##### * https://rosettacode.org/wiki/Tetris/JavaScript
+##### * https://www.youtube.com/watch?v=HEsAr2Yt2do&t=391s&ab_channel=CodeExplained
+

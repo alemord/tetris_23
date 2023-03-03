@@ -92,6 +92,7 @@ h1 {
   font-family: 'Press Start 2P', cursive;
   color: #FFFFFF;
   text-shadow: 2px 2px #000000;
+  top: 200px;
 }
 
 h2{
@@ -105,7 +106,9 @@ h2{
 }
 
 h3 {
-  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  right: 845px;
   font-size: 30px;
   font-family: 'Press Start 2P', cursive;
   color: #FFFFFF;
@@ -136,6 +139,7 @@ body {
   color: #FFFFFF;
   text-shadow: 2px 2px #000000;
   font-size: 18px;
+  
 }
 
 .level {
@@ -146,7 +150,7 @@ body {
 }
 
 #start-button {
-  background-color: #222;
+  background-color: #e91f1f;
   font-family: 'Press Start 2P', cursive;
   border: none;
   color: #fff;
@@ -172,7 +176,7 @@ body {
 }
 
 #level {
-  background-color: #222;
+  background-color: #2e6e1b;
   font-family: 'Press Start 2P', cursive;
   border: none;
   color: #fff;
@@ -192,7 +196,7 @@ body {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 #level7 {
-  background-color: #222;
+  background-color: #e29750;
   font-family: 'Press Start 2P', cursive;
   border: none;
   color: #fff;
@@ -230,7 +234,86 @@ body {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+audio {
+  background-color: #086910;
+  font-family: 'Press Start 2P', cursive;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+}
+
+audio source {
+  display: none;
+}
+
+audio::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 20px 10px;
+  border-color: transparent transparent #130707 transparent;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+audio::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 10px 0 10px;
+  border-color: #141313 transparent transparent transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(88, 223, 110);
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider {
+  display: rgb(238, 236, 236);
+}
+
+audio::-webkit-media-controls-volume-slider-container {
+  width: 100px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #110e0e;
+}
+
+audio::-webkit-media-controls-volume-slider-thumb {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
 
 
- 
 
