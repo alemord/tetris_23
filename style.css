@@ -117,8 +117,8 @@ h3 {
 
 .rules {
   position: absolute;
-  bottom: 500px;
-  left: 260px;
+  bottom: 50%;
+  left: 7%;
   font-family: 'Press Start 2P', cursive;
   color: #FFFFFF;
   text-shadow: 2px 2px #000000;
@@ -128,9 +128,7 @@ h3 {
 
 body {
   background-color: #000000;
-
   background-image: url('media/wallpaperflare.com_wallpaper.jpg');
-  background-position: 300px 80px;
   background-size: cover;  
 }
 
@@ -139,6 +137,7 @@ body {
   color: #FFFFFF;
   text-shadow: 2px 2px #000000;
   font-size: 18px;
+  position: relative;
   
 }
 
@@ -247,8 +246,8 @@ audio {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-in-out;
   position: fixed;
-  bottom: 150px;
-  right: 20px;
+  bottom: 10%;
+  left: 5%;
 }
 
 audio source {
