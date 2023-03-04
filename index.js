@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const squaresRemoved = squares.splice(i, width)
         squares = squaresRemoved.concat(squares)
         squares.forEach(cell => grid.appendChild(cell))
-        if (score >= 200) {  // you won : checks if the player has won and prompts a message
+        if (score >= 100) {  // you won : checks if the player has won and prompts a message
           clearInterval(timerId)
           document.removeEventListener('keyup', moveIt)
           alert('YOU WON!')
