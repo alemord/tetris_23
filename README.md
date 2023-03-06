@@ -16,6 +16,8 @@
 
 
 #### Sources and Acknowledgments:
+##### * https://code-projects.org/tetris-game-in-javascript-with-source-code/
+##### * https://codeincomplete.com/articles/javascript-tetris/
 ##### * https://michael-karen.medium.com/learning-modern-javascript-with-tetris-92d532bcd057
 ##### * https://levelup.gitconnected.com/build-a-tetris-game-with-html-canvas-css-and-javascript-on-autocode-132c8346e60c
 ##### * https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game/
